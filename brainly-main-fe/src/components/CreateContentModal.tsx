@@ -10,6 +10,7 @@ import { BACKEND_URL } from "../config";
 enum ContentType {
   Youtube = "youtube",
   Twitter = "twitter",
+  Linkedin = "linkedin"
 }
 
 export function CreateContentModal({ open, onClose }) {
@@ -71,6 +72,12 @@ export function CreateContentModal({ open, onClose }) {
                     text="Twitter"
                     variant={type === ContentType.Twitter ? "primary" : "secondary"}
                     onClick={() => setType(ContentType.Twitter)}
+                  />
+
+                   <Button
+                    text="Linkedin"
+                    variant={type === ContentType.Linkedin ? "primary" : "secondary"}
+                    onClick={() => setType(ContentType.Linkedin)}
                   />
                 </div>
               </div>

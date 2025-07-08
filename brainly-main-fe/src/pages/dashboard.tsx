@@ -47,7 +47,7 @@ export function Dashboard() {
     : contents.filter((content) => content.type === type);
 
   return (
-    <div className="flex min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50 relative">
+    <div className="flex min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50 relative overflow-hidden">
       {/* Sidebar */}
       <Sidebar setType={setType} />
 
@@ -178,7 +178,7 @@ export function Dashboard() {
                 </div>
               </div>
 
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mx-8 gap-48">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  xl:grid-cols-4 mx-8 gap-48  ">
                 {filterContent.map(({ type, link, title }, index) => (
                   <motion.div
                     key={index}

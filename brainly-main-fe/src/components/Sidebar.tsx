@@ -2,6 +2,7 @@ import { TwitterIcon } from "../icons/TwitterIcon";
 import { YoutubeIcon } from "../icons/YoutubeIcon";
 import { Logo } from "../icons/Logo";
 import { Button } from "./Button";
+import { LinkedIn } from "../icons/LinkedIn";
 
 export function Sidebar({ setType }) {
   return (
@@ -34,6 +35,12 @@ export function Sidebar({ setType }) {
           label="YouTube"
           icon={<YoutubeIcon />}
           onClick={() => setType("youtube")}
+        />
+
+          <SidebarButton
+          label="LinkedIn"
+          icon={<LinkedIn />}
+          onClick={() => setType("linkedin")}
         />
       </div>
     </div>

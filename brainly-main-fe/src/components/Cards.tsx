@@ -1,11 +1,12 @@
-import { XEmbed } from "react-social-media-embed";
+import { LinkedInEmbed, XEmbed } from "react-social-media-embed";
 import { ShareIcon } from "../icons/ShareIcon";
 import { YoutubeIcon } from "../icons/YoutubeIcon";
+
 
 interface CardProps {
   title: string;
   link: string;
-  type: "twitter" | "youtube";
+  type: "twitter" | "youtube" | "linkedin";
 }
 
 export function Card({ title, link, type }: CardProps) {
@@ -73,6 +74,26 @@ export function Card({ title, link, type }: CardProps) {
           <XEmbed url={link} />
         </div>
       )}
+
+      {type === "linkedin" && (
+  // <a
+  //   href={link}
+  //   target="_blank"
+  //   rel="noopener noreferrer"
+  //   className="block w-full h-full border rounded-md bg-gray-50 overflow-hidden"
+  // >
+  //   <img
+  //     src={link} // Replace with actual screenshot path
+  //     alt="LinkedIn Post Screenshot"
+  //     className="w-full h-full object-cover"
+  //   />
+  // </a>
+  <div className="h-full overflow-x-hidden overflow-y-auto border rounded-md bg-gray-50 p-2">
+ <a href={link} target="_blank" rel="noopener noreferrer">
+  View on LinkedIn
+</a>
+</div>
+)}
     </div>
   </div>
 );
