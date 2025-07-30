@@ -1,4 +1,4 @@
-📚 Keep It - Personal Knowledge Management System
+ 📚 Keep It - Personal Knowledge Management System
 Keep It is your digital Second Brain - a powerful personal knowledge management tool that helps you capture, organize, and retrieve meaningful content from across the web and your life. Whether it's a YouTube video, an insightful X (Twitter) post, LinkedIn post,  - Keep It ensures that nothing valuable slips away.
 
 🚀 Usage & Functionality
