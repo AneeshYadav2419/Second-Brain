@@ -52,6 +52,9 @@ View all content chronologically or by topic
 ✅ Responsive UI
 
 
+![image alt](Screenshot 2025-07-30 150623.png)
+
+
 
 
 Layer	Technology
