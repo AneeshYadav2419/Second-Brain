@@ -52,7 +52,30 @@ View all content chronologically or by topic
 ✅ Responsive UI
 
 
+Authentication process
+
 <img src="pics/Screenshot 2025-07-30 150623.png" alt="Logo" width="600">
+
+
+Dashboard Section
+
+
+<img src="pics/Screenshot 2025-07-30 150710.png" alt="Logo" width="600">
+
+All Contents Section
+
+
+<img src="pics/Screenshot 2025-07-30 151013.png" alt="Logo" width="600">
+
+filter Youtube Section 
+
+
+<img src="pics/Screenshot 2025-07-30 151057.png" alt="Logo" width="600">
+
+Filter Twitter Section
+
+
+<img src="pics/Screenshot 2025-07-30 151114.png" alt="Logo" width="600">
 
 
 
