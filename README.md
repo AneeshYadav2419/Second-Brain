@@ -2,6 +2,8 @@
 Keep It is your digital Second Brain - a powerful personal knowledge management tool that helps you capture, organize, and retrieve meaningful content from across the web and your life. Whether it's a YouTube video, an insightful X (Twitter) post, LinkedIn post,  - Keep It ensures that nothing valuable slips away.
 
 🚀 Usage & Functionality
+
+
 🔖 1. Save Anything That Matters
 Users can save content from various sources like:
 
@@ -19,6 +21,7 @@ Tags or keywords
 Submit
 
 🗂 3. Organize Your Knowledge
+
 Keep It allows users to:
 
 Categorize items by type (e.g.,  Videos, Posts)
