@@ -4,7 +4,7 @@ import jwt from "jsonwebtoken";
 import { ContentModel, LinkModel, UserModel } from "./db";
 import { JWT_PASSWORD } from "./config";
 import { UserMiddleware } from "./middleware";
-import { Request } from "express";
+import { Request ,Response } from "express";
 import { random } from "./utils";
 import cors from "cors";
 
@@ -171,6 +171,33 @@ app.get("/api/v1/brain/:shareLink", async(req , res)=>{
             content : content
         })
     })
+
+ 
+
+
+app.delete("/api/v1/brain/delete-item", async (req: Request, res: Response): Promise<void> => {
+  try {
+    const { id } = req.body as { id?: string };
+    console.log(id);
+
+    if (!id) {
+      res.status(400).json({ success: false, message: "id is required" });
+      return;
+    }
+
+    const deleted = await ContentModel.findByIdAndDelete(id); // <-- fixed
+
+    if (!deleted) {
+      res.status(404).json({ success: false, message: "content not found" });
+      return;
+    }
+
+    res.status(200).json({ success: true, message: "content deleted", data: { id: deleted._id } });
+  } catch (err) {
+    res.status(500).json({ success: false, message: "internal server error" });
+  }
+});
+
 
    
 app.listen(3000);
