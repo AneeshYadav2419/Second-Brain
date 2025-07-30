@@ -8,16 +8,22 @@ Keep It is your digital Second Brain - a powerful personal knowledge management 
 Users can save content from various sources like:
 
 YouTube videos
-LinkedIn posts 
+
+LinkedIn posts
+
 X (Twitter) posts
+
 
 
 📝 2. Add Custom Notes or Descriptions
 Each item can be enriched with your own:
 
 Title or caption
+
 Link
+
 Tags or keywords
+
 Submit
 
 🗂 3. Organize Your Knowledge
@@ -25,16 +31,24 @@ Submit
 Keep It allows users to:
 
 Categorize items by type (e.g.,  Videos, Posts)
+
 Filter and search by tags, platform, or keywords
+
 View all content chronologically or by topic
 
     
 ✨ Features Overview
+
 ✅ Save content from multiple platforms
+
 ✅ Categorize by content type
+
 ✅ Fast, intuitive search & filter
+
 ✅ JWT-based authentication
+
 ✅ Public sharing of saved items
+
 ✅ Responsive UI
 
 
