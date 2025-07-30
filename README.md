@@ -78,7 +78,7 @@ Filter Twitter Section
 <img src="pics/Screenshot 2025-07-30 151127.png" alt="Logo" width="600">
 
 
-
+Tech Stack 
 
 Layer	Technology
 Frontend	React.js, TypeScript, Tailwind CSS
