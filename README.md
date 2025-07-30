@@ -28,7 +28,7 @@ Categorize items by type (e.g.,  Videos, Posts)
 Filter and search by tags, platform, or keywords
 View all content chronologically or by topic
 
-
+    
 ✨ Features Overview
 ✅ Save content from multiple platforms
 ✅ Categorize by content type
@@ -38,9 +38,17 @@ View all content chronologically or by topic
 ✅ Responsive UI
 
 
+
+
 Layer	Technology
 Frontend	React.js, TypeScript, Tailwind CSS
+
+
 Backend	Node.js, Express.js, TypeScript
+
 Database	MongoDB (Mongoose ODM)
+
 Authentication	JWT (JSON Web Tokens)
+
+
 API Design	REST API
