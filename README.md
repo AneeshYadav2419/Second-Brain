@@ -52,43 +52,54 @@ View all content chronologically or by topic
 ✅ Responsive UI
 
 
-Authentication process
+🔐 Authentication
 
 <img src="pics/Screenshot 2025-07-30 150623.png" alt="Logo" width="600">
 
 
-Dashboard Section
+📊 Dashboard
 
 
 <img src="pics/Screenshot 2025-07-30 150710.png" alt="Logo" width="600">
 
-All Contents Section
+🗂️ All Contents
 
 
 <img src="pics/Screenshot 2025-07-30 151057.png" alt="Logo" width="600">
 
-filter Youtube Section 
+🎥 Filter – YouTube Section
 
 
 <img src="pics/Screenshot 2025-07-30 151114.png" alt="Logo" width="600">
 
-Filter Twitter Section
+🐦 Filter – Twitter (X) Section
 
 
 <img src="pics/Screenshot 2025-07-30 151127.png" alt="Logo" width="600">
 
 
-Tech Stack 
+🛠️ Tech Stack
 
-Layer	Technology
-Frontend	React.js, TypeScript, Tailwind CSS
+Frontend
+React / Next.js – Component-based UI development
 
+TypeScript (optional) – Strongly-typed codebase
 
-Backend	Node.js, Express.js, TypeScript
+Tailwind CSS – Utility-first styling
 
-Database	MongoDB (Mongoose ODM)
+React Context / Redux – State management
 
-Authentication	JWT (JSON Web Tokens)
+React-Router / Next Router – Navigation
 
+React-Social-Media-Embed – Embedding YouTube, X (Twitter), LinkedIn content
 
-API Design	REST API
+Backend
+Node.js & Express.js – RESTful API services
+
+MongoDB (Mongoose) – NoSQL database for scalable data storage
+
+JWT Authentication – Secure user authentication & authorization
+
+Bcrypt – Password hashing
+
+Multer – File uploads
