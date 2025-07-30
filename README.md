@@ -52,7 +52,7 @@ View all content chronologically or by topic
 ✅ Responsive UI
 
 
-<img src="pics/Screenshot 2025-07-30 150623.png" alt="Logo" width="200">
+<img src="pics/Screenshot 2025-07-30 150623.png" alt="Logo" width="600">
 
 
 
